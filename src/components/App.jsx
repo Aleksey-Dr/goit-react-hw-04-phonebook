@@ -37,9 +37,7 @@ export const App = () => {
   };
 
   const deleteContact = contactId => {
-    setContacts(prevState => (
-      prevState.contacts.filter(contact => contact.id !== contactId)
-    ));
+    setContacts(contacts.filter(contact => contact.id !== contactId));
   };
 
   const changeFilter = event => setFilter(event.currentTarget.value);
