@@ -21,3 +21,5 @@ III. Adding and configuring tools
 IV. Copied all components from goit-react-hw-03-phonebook
 
 V. Refactoring <ContactForm>
+
+VI. Refactoring <App>
